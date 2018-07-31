@@ -1,0 +1,366 @@
+body {
+    background-color: #f1f1f1 !important;
+}
+
+.Header_Top { height: 10px; width: 100%; background-color: #0780c3;}
+.Headertop  { background-color: #fff !important;}
+.topheader  { background-color: #fff !important; box-shadow: 0px 0px 5px -2px rgba(0,0,0,0.75) !important;}
+.Headertop svg { fill: #0780c3 !important;}
+.muidocs-icon-action-home { color: #0780c3 !important; }
+
+.HeaderTile { width: 100%; min-height: 50px; background-color: #fff; margin-top: 5px;}
+
+.Menu_AppBar { background-color: #0780c3 !important; }
+.Menu_AppBar svg { fill: #0780c3 !important;}
+
+.TitleIcon { float: left; width: 85%;}
+.BreadCrumClass { float: left; width: 15%; margin-top: -15px;}
+.ActiveClass { color: #0780c3 !important; }
+
+.FormWizard { display: inline-flex !important;}
+
+.CommonDiv { margin:20px;}
+
+/**Balamurugan**/
+.Welcomedesign{ padding: 5px 10px; }
+.WelcomeHeader{ color: #0780c3; }
+.Welcomecontinue_button{  float:right; background-color: #0780c3; margin-bottom: 20px;   }
+
+fieldset {
+    padding: .35em .625em .75em !important;
+    margin: 0 2px !important;
+    border: 1px solid silver !important;
+}
+
+legend {
+    display: inline !important;
+    width: 100%;
+    border-bottom: none !important;
+}
+
+.SearchIng { margin: 10px;}
+.UserProfilename {color: #0780c3 !important;}
+.usermail { color: #ccc; font-size: 12px;}
+.userprof { float: right !important;}
+.row { margin-left: 0px !important; margin-right: 0px !important;}
+
+.CompanyIcons { margin:7px; cursor: pointer;}
+.Login-Bg {
+    background-image: url(../img/download.png);
+    min-width: 100%;
+    min-height: 100%;
+    background-size: 100% 100%;
+  
+  /* Image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Image doesn't repeat */
+  background-repeat: no-repeat;
+  
+  /* Makes the image fixed in the viewport so that it doesn't move when 
+     the content height is greater than the image height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based on its container's size */
+  background-size: cover;
+  
+  /* Pick a solid background color that will be displayed while the background image is loading */
+  background-color:#464646;
+  
+  /* SHORTHAND CSS NOTATION
+   * background: url(background-photo.jpg) center center cover no-repeat fixed;
+   */
+   position: absolute;
+}
+.CompanyLogo {    margin: 20px;}
+.Login-topic{    font-size: 22px;    font-weight: 600;    color: #0780c3;} 
+.Login-align{    background: #fff;}
+
+.LoginPage {
+    background-color: #fff !important;
+    padding: 15px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.21);
+    margin: 40px 0px;
+}
+
+.LoginPage p {    text-align: center;}
+.LoginPage h3 {   text-align: center;   color: #68a9df;    font-weight: 700;}
+.forgotpwd { color: #68a9df; float: right;}
+.reg { color: #68a9df;}
+.kepSign { margin: 20px 0px !important;}
+.Newtogpa { margin: 20px 0px;}
+.input-fileds div { width: 100% !important;}
+
+.LoginButton {
+    background-color: #68a9df; /* Green */
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 25px;
+    width: 200px;
+    padding: 8px;
+    margin-top: -5px;
+}
+.LoginButton:hover {
+    background-color: #68a9df; /* Green */
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 25px;
+    width: 200px;
+    padding: 8px;
+    margin-top: -5px;
+}
+.Loginlink{
+    color: #fff;
+    text-decoration: none;
+}
+.Loginlink:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.Reg-Page{
+    background-color: #fff !important;
+    padding: 15px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.21);
+    margin-top: -30px;
+}
+.Reg-Page p {    text-align: center; }
+.Reg-Page h3{    text-align: center;    color: #68a9df;    font-weight: 700;}
+.ResetButton {    background-color: #f1f1f1;  border-radius: 25px;  width: 100px;}
+.RegButton {    margin: 20px 0px !important;}
+.tooltip-inner {background-color: #0780c3;}
+.Tooltip-ex{ color: gold;}
+.EmpcmpName {    color: #0780c3;    font-weight: 700;}
+.TC-bg{ background-color: #fff;}
+.TC-datepicker{  margin-top: 15px;  margin-bottom: -10px;}
+.TC-logo{  margin: 20px 20px; margin-bottom: -10px;}
+.TC-header {  height: 50px;  color: #0780c3;  }
+.TC-content {
+    /* width: 100%; */
+    height: 440px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+.TC-button{   float: right;  background-color: #0780c3; }
+.FR-Page{
+    background-color: #fff !important;
+    padding: 15px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.21);
+    
+}
+.FR-Page h3{ text-align: center;   color: #68a9df;   font-weight: 700;}
+.FR-Button{   
+    background-color: #68a9df; 
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    width: 200px;
+    margin-top: 5px;
+}
+.FR-Fields div { width:90% !important}
+.FR-Fields { margin-left:30px;}
+
+
+
+/* Dashboard */
+
+.HeaderTop { background-color: #0780c3; height: 5px;}
+.UsersettingsIcons  {margin-top: -25px;}
+.BreadCrumbsClass {    float: right !important;}
+
+.HeadingColr {    color: #0780c3;}
+
+.panel-default>.panel-heading {
+    color: #fff;
+    background-color: #0780c3;
+    border-color: #0780c3;
+}
+
+.PanelText p {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #848484;
+    line-height: 40px;
+}
+
+.StepTofollow {    margin:20px 0px;}
+
+.Stepdiv {
+    background-color: #f4f5f6;
+    border: 1px solid #979898;
+    height: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden !important;
+}
+.Stepdiv1 {
+    
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.GQ-text{ font-size: 80px; font-weight: 400;}
+.NextButton {    float: right;}
+
+.DrawerStyle div{
+    /* width: 250px !important; */
+    overflow: hidden !important;
+}
+.userprof{    float: right;}
+.Badge{    float: left;}
+.Badge span {
+    margin: 10px;
+}
+
+.TitleIconColor svg {
+color: #0780c3 !important;
+margin: 0px 10px;
+}
+
+.TitleTexColor {
+color: #575656 !important;
+margin-top: -15px !important;
+}
+
+.Notify {
+width: 800px !important;
+height: 800px !important;
+background-color: #0780c3 !important;
+border-radius: 50% !important;
+}
+
+.badgeNumber {
+margin: 10px !important;
+}
+
+.PrintClass {
+    text-align: center;
+}
+.PrintClass p {
+    color: #0780c3;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.printbutton {
+    background-color: #0780c3 !important;
+    color: #fff;
+    margin-bottom: 20px !important;
+}
+
+.input-fileds label{
+    font-family: Roboto, sans-serif !important;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.input-fileds div {
+    font-family: Roboto, sans-serif !important;
+    font-size: 13px !important;
+}
+
+.input-fileds input[type="text"]{
+    font-family: Roboto, sans-serif !important;
+    font-size: 13px !important;
+}
+
+.floatingLabelText {
+    font-family: Roboto, sans-serif !important;
+}
+
+.RQ-Save {
+    margin-bottom: 20px;
+    background-color: #0780c3;
+    color: #fff;
+}
+.RQ-Save:hover {
+    margin-bottom: 20px;
+    background-color: #0780c3;
+    color: #fff;
+}
+
+.panel {
+    margin-bottom: 0px !important;
+}
+
+.RQ-Add {
+    background-color: #0780c3;
+    color: #fff;
+}
+.RQ-Add:hover {
+    background-color: #0780c3;
+    color: #fff;
+}
+.SameCountryOption {
+    margin-top: -20px;
+}
+.SameCountryOption b{
+    color: #0780c3;
+}
+.Country_Name {
+    color: #0780c3;
+}
+.gpalogo {
+    background-color: #0780c3;
+}
+.VerifyDiv {
+    background-color: #0780c3;
+    padding: 10px 20px !important;
+}
+.Verifymsg {
+    text-align: left;
+    padding-top:20px;
+}
+.Verifycode {
+    width: 100% !important;
+}
+.Continuebtn {
+    /* background-color: #0780c3 !important; */
+    color: #fff;
+    float: right;
+}
+.Loginbtn1{
+    background-color: #0780c3 !important;
+    color: #fff !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center;
+    border-radius: 25px !important;
+}
+
+.Verifymsgdone {
+    text-align: center !important;
+}
+.Verifydone {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 8px;
+}
+.Thanks_div h4 {
+    color: #fff;
+}
+/* .logo_div {
+    width: 30%;
+}
+.Thanks_div {
+    width: 70%;
+    text-align: center !important;
+} */
+
+.manatoryfield {
+    color: red;
+}
